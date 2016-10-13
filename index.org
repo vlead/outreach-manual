@@ -1,0 +1,161 @@
+#+TITLE: Manual for Outreach Portal 
+#+AUTHOR: VLEAD
+#+DATE: [2016-10-13 Thu]
+
+* Login Scenarios
+<<Login Scenarios>>
+** Login in as Admin
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Click on =Log In= button at top right corner and use below credentials
+            to Sign in:
+
+            + Username - <outreach-admin@vlabs.ac.in>
+            + password - <password>
+
+** Login in as Outreach Coordinator
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Click on =Log In= button at top right corner and use below credentials
+            to Sign in:
+
+            + Username - <outreach-coordinator@vlabs.ac.in>
+            + password - <password>
+
+** Login in as Nodal Coordinator
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Click on =Log In= button at top right corner and use below credentials
+            to Sign in:
+
+            + Username - <nodal-coordinator@vlabs.ac.in>
+            + password - <password>
+
+* Admin Scenarios
+** Dashboard
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Dashboard= button from left menu bar.
+
++ Step 4 :: Admin =Dashboard= will show the following Details:
+            1) Total Number of Workshops Run - Click on this to view all the
+               workshops with details of each workshop   
+            2) Total Number of Outreach Coordinators - Click on this to view
+               all the Outreach Coordinators
+            3) Total Number of Nodal Coordinators - Click on this to view all
+               the Nodal Coordinators
+            4) Total Usage - Click on this to view the total Usage per institute
+
+** Add Outreach Coordinator
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Outreach Coordinators= button from left menu bar. 
+
++ Step 4 :: Click on =Add Outreach Coordinator= button to add new Outreach Coordinator.  
+
++ Step 5 :: Fill the details of the Outreach Coordinator and Click on =Submit=
+     button. (All fields are mandatory)
+ 
+            + Name - <outreach coordinator name>
+            + Email - <outreach coordinator email>
+            + Institute Name - <outreach coordinator institute>
+
++ Step 6 :: Newly added Outreach Coordinator will be added at the end of the
+     =Outreach Coordinators Details= list.
+
+** Edit/Update the Details of Outreach Coordinator
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Outreach Coordinators= button from left menu bar. 
+
++ Step 4 :: Click on =Edit= button to edit the details of an Outreach Coordinator.
+
++ Step 5 :: Update any of the following details of the Outreach Coordinator and Click on =Submit=
+     button. (All fields are mandatory)
+ 
+            + Name - <outreach coordinator name>
+            + Email - <outreach coordinator email>
+            + Institute Name - <outreach coordinator institute>
+
++ Step 6 :: Updated details of Outreach Coordinator will be reflected in 
+            =Outreach Coordinators Details= list.
+
+** Delete Outreach Coordinator
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Outreach Coordinators= button from left menu bar. 
+
++ Step 4 :: Click on =Delete= button to delete an Outreach Coordinator.
+
++ Step 5 :: Outreach Coordinator will be removed and will get reflected in 
+            =Outreach Coordinators Details= list.
+
+** Add Workshop Reference Documents/Guidance Materials
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Documents= button from left menu bar. 
+
++ Step 4 :: Click on =Add Document= button.
+
++ Step 5 :: Enter the =type of the file=, 
+            example: Attendance Sheet, Virtual Labs Handout etc.
+
++ Step 6 :: Click on =Browse= button to select the file from file system and
+     click on =Upload= button. 
+
+*Note* Allowed file formats are: [txt, pdf, png, jpg, jpeg, gif, csv, doc, docx]  
+     
++ Step 7 :: Newly added Document will be added at the end of the
+     =Document Details= list.
+
+** View Workshop Reference Documents/Guidance Materials
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Documents= button from left menu bar. 
+
++ Step 4 :: Click on =View= button beside each document.
+
++ Step 5 :: The Document will be opened in new window.
+
+*Note* If the document size is heavy, then the document will be downloaded.
+
+** Delete Workshop Reference Documents/Guidance Materials
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Documents= button from left menu bar. 
+
++ Step 4 :: A =Delete= button is available beside each document. Click on
+     =Delete= button to delete a particular document.
+
+** My Profile
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =My Profile= to view the details of an Admin. 
+

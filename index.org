@@ -52,6 +52,9 @@
                the Nodal Coordinators
             4) Total Usage - Click on this to view the total Usage per institute
 
++ Step 5 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Add Outreach Coordinator
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -71,6 +74,9 @@
 
 + Step 6 :: Newly added Outreach Coordinator will be added at the end of the
      =Outreach Coordinators Details= list.
+
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
 
 ** Edit/Update the Details of Outreach Coordinator
 *** Steps
@@ -92,6 +98,9 @@
 + Step 6 :: Updated details of Outreach Coordinator will be reflected in 
             =Outreach Coordinators Details= list.
 
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Delete Outreach Coordinator
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -104,6 +113,9 @@
 
 + Step 5 :: Outreach Coordinator will be removed and will get reflected in 
             =Outreach Coordinators Details= list.
+
++ Step 6 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
 
 ** Add Documents/Guidance Materials
 *** Steps
@@ -126,6 +138,9 @@
 + Step 7 :: Newly added Document will be added at the end of the
      =Document Details= list.
 
++ Step 8 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** View Documents/Guidance Materials
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -140,6 +155,9 @@
 
 *Note* If the document size is heavy, then the document will be downloaded.
 
++ Step 6 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Delete Documents/Guidance Materials
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -151,6 +169,9 @@
 + Step 4 :: A =Delete= button is available beside each document. Click on
      =Delete= button to delete a particular document.
 
++ Step 5 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** My Profile
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -158,6 +179,8 @@
 + Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
 
 + Step 3 :: Click on =My Profile= to view the details of an Admin. 
+
++ Step 5 :: Click on =Logout= button from top right corner to exit.
 
 * Outreach Coordinator Scenarios
 ** Dashboard
@@ -173,6 +196,9 @@
             2) Total Number of Experiments
             3) Total Number of Participants
             4) Total Number of Nodal Centres
+
++ Step 5 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
 
 ** Add Nodal Centre
 *** Steps
@@ -194,6 +220,9 @@
 + Step 6 :: Newly added Nodal Coordinator will be added at the end of the
      =Nodal Centres Details= list.
 
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Edit/Update the Details of Nodal Centre
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -214,6 +243,9 @@
 + Step 6 :: Updated details of Nodal Centre will be reflected in 
             =Nodal Centres Details= list.
 
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Delete Nodal Centre
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -226,6 +258,9 @@
 
 + Step 5 :: Nodal Centre will be removed and will get reflected in 
             =Nodal Centres Details= list.
+
++ Step 6 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
 
 ** Add Nodal Coordinator
 *** Steps
@@ -250,6 +285,9 @@
 + Step 6 :: Newly added Nodal Coordinator will be added at the end of the
      =Nodal Coordinators Details= list.
 
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Edit/Update the Details of Nodal Coordinator
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -273,6 +311,9 @@
 + Step 6 :: Updated details of Nodal Coordinator will be reflected in 
             =Nodal Coordinators Details= list.
 
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Delete Nodal Coordinator
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -285,6 +326,9 @@
 
 + Step 5 :: Nodal Coordinator will be removed and will get reflected in 
             =Nodal Coordinators Details= list.
+
++ Step 6 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
 
 ** Add Workshop Reference Documents
 *** Steps
@@ -310,6 +354,9 @@
 + Step 8 :: Documents uploaded by Admin is available to view under
      =Admin Documents= section.
 
++ Step 9 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** View Workshop Reference Documents
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -321,6 +368,9 @@
 + Step 4 :: Click on =View= button beside each document.
 
 + Step 5 :: The Document will be opened in new window.
+
++ Step 6 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
 
 *Note* If the document size is heavy, then the document will be downloaded.
 
@@ -335,3 +385,159 @@
 + Step 4 :: A =Delete= button is available beside each document. Click on
      =Delete= button to delete a particular document.
 
++ Step 5 :: Click on =Logout= button from top right corner to exit. 
+
+* Nodal Coordinator Scenarios
+** Dashboard
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: LogIn as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Dashboard= button from left menu bar.
+
++ Step 4 :: Outreach Coordinator =Dashboard= will show the following Details:
+            1) Total Number of Workshops 
+            2) Total Number of Experiments
+            3) Total Number of Participants
+
++ Step 5 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
+** Add Workshop 
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Workshops= button from left menu bar. 
+
++ Step 4 :: Click on =Add Workshop= button.
+
++ Step 5 :: Enter the following details to create a New Workshop and Click on =Submit=
+     button. (All fields are mandatory except Gateway IP)
+
+            + Workshop Name - <workshop name>
+            + Location of Workshop - <location of workshop>
+            + Participating Institutes - <participating institutes>
+            + Number of Expected Participants - <number of expected participants>
+            + Number of Sessions - <number of sessions>
+            + Duration of Each Session - <duration of each session>
+            + Number of Labs Planned - <number of labs planned>
+            + Date of Workshop - <date of workshop>
+            + Gateway IP of College - <gateway ip of college> (optional)
+
++ Step 7 :: Newly added Workshop will appear under =Upcoming Workshops= section if
+     the workshop date is future. or else if the workshop is already done, it
+     will appear under =Pending Action Workshops= section. 
+
++ Step 9 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
+** Edit Workshop
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Workshops= button from left menu bar. 
+
++ Step 4 :: Click on =Edit= button to edit the details of a Workshop.
+
++ Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
+     button.
+
+            + Workshop Name - <workshop name>
+            + Location of Workshop - <location of workshop>
+            + Participating Institutes - <participating institutes>
+            + Number of Expected Participants - <number of expected participants>
+            + Number of Sessions - <number of sessions>
+            + Duration of Each Session - <duration of each session>
+            + Number of Labs Planned - <number of labs planned>
+            + Date of Workshop - <date of workshop>
+            + Gateway IP of College - Click on =Get Gateway IP= button to get the gateway ip of college
+              where the workshop is conducted. *Note* This feature is used
+              while doing the workshop.
+            + Usage from Online Feedback - Click on =Compute Usage= button to
+              get the Usage from online feedback which is auto populated based
+              on given =workshop date= and =college gateway ip=
+            + Usage from Paper Feedback - <usage from paper feedback> *Note* Update this field if the online
+              usage is not correct.
+
++ Step 6 :: Updated Workshop will appear under =Upcoming Workshops= section if
+     the workshop date is future. or else if the workshop is already done, it
+     will appear under =Pending Action Workshops= section. 
+
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
+** Upload Workshop Reports
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Workshops= button from left menu bar. 
+
++ Step 4 :: Click on =Pending Action Workshops= section from right menu bar. 
+
++ Step 5 :: Click on =Upload Reports= button to upload the reports of a Workshop.
+
++ Step 6 :: Three different sections will appear as =Upload Photos=, =Upload Attendance
+     Sheets= and =Upload College Reports=.Click on =Browse= button to select the files from file system.
+     All three sections are mandatory. Click on =Upload= button. 
+
+*Note* Allowed file formats are: [txt, pdf, png, jpg, jpeg, gif, csv, doc, docx]  
+
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
+** View Workshop Reference Documents
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Documents= button from left menu bar. The documents
+     uploaded by Admin and Outreach coordinator will appear in two separate
+     sections as =Admin Reference Documents= and =Outreach Coordinator
+     Reference Documents=
+ 
++ Step 4 :: Click on =View= button beside each document.
+
++ Step 5 :: The Document will be opened in new window.
+
+*Note* If the document size is heavy, then the document will be downloaded.
+
++ Step 6 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
+** View Outreach Coordinator Details
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Contact Outreach Coordinator= button from left menu
+     bar. The =Contact Details= section will appear with the following details:
+
+            + Name - <outreach coordinator name>
+            + Email - <outreach coordinator email>
+            + Institute Name - <institute name>
+ 
++ Step 4 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
+** View Nodal Center Details
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Nodal Centers= button from left menu
+     bar. The =Nodal Center Details= section will appear with the following details:
+
+            + Name - <Nodal Center Name>
+            + Location - <Nodal Center Location>
+
++ Step 4 :: Click on =Logout= button from top right corner to exit. 

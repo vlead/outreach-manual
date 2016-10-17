@@ -13,8 +13,8 @@ STATUS=0
 
 DEST_HOST="root@vlabs-dev.vlabs.ac.in"
 DEST_HOST_STAGE="root@staging-dev.vlabs.ac.in"
-DEST_DIR="/var/www/html/documentation/outreach-manual"
-REMOVE_COMMAND="rm -rf /var/www/html/documentation/outreach-manual/*"
+DEST_DIR="/var/www/docs/outreach-manual"
+REMOVE_COMMAND="rm -rf /var/www/docs/outreach-manual/*"
 
 all:  publish
 
@@ -47,6 +47,9 @@ publish: init
 
 clean:	clean-literate
 	rm -rf ${BUILD_DIR}
+
+pull:
+	git pull origin master
 
 export: pull publish
 	ssh -o "StrictHostKeyChecking no" ${DEST_HOST} ${REMOVE_COMMAND}

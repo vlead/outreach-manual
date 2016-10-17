@@ -1,9 +1,15 @@
 #+TITLE: Manual for Outreach Portal 
 #+AUTHOR: VLEAD
 #+DATE: [2016-10-13 Thu]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
 
 * Login Scenarios
-<<Login Scenarios>>
+:PROPERTIES:
+:CUSTOM_ID: login_scenarios
+:END:      
 ** Login in as Admin
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -39,7 +45,7 @@
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
-+ Step 2 :: Login as Admin (Please follow the steps mentioned in [[Login Scenarios]])
++ Step 2 :: Login as Admin (Please follow the steps mentioned in [[./index.org::#login_scenarios][Login Scenarios]])
 
 + Step 3 :: Click on =Dashboard= button from left menu bar.
 

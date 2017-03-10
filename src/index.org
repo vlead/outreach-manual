@@ -221,9 +221,9 @@
             Gateway IP for online workshops)
 
             + Workshop Version - <online/offline>
-	      - online :: Virtual Labs are accessed from internet.
+	      - online :: Virtual Labs are accessed from the internet.
 	      - offline :: Virtual Labs are accessed from college
-                           cloud (Innternet connection is not
+                           cloud HDD(Internet connection is not
                            required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
@@ -237,12 +237,12 @@
             + Gateway IP of College - <gateway ip of college>
               (optional field for online workshops)
 
-+ Step 7 :: Newly added Workshop will appear under =My Workshops=
++ Step 6 :: Newly added Workshop will appear under =My Workshops=
             section if the workshop date is future. or else if the
             workshop is already done, it will appear under =Workshop
             History= section.
 
-+ Step 9 :: Click on =Logout= button from top right corner to exit. or
++ Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
 
 ** Edit Workshop
@@ -258,11 +258,10 @@
 + Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
      button.
             + Workshop Version - <online/offline>
-     	      - online :: Virtual Labs are accessed from internet.
+	      - online :: Virtual Labs are accessed from the internet.
 	      - offline :: Virtual Labs are accessed from college
-                           cloud (Innternet connection is not
+                           cloud HDD(Internet connection is not
                            required to access the labs)
-
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
             + Participating Institutes - <participating institutes>
@@ -285,19 +284,18 @@
                 usage is not correct.
             + For offline workshop
 	      - Enter the =College MAC Address= value which is
-                obtained during workshop is being conducted at the college
-                or contact college cloud SysAdmin to get the mac
-                address of the college cloud machine.
+                obtained when the workshop was conducted at the college.Visit for [[http://google.com][More information on getting MAC address]]
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.
 
-+ Step 6 :: Updated Workshop will appear under =Upcoming Workshops= section if
-     the workshop date is future. or else if the workshop is already done, it
-     will appear under =Pending Action Workshops= section. 
++ Step 6 :: Updated Workshop will appear under =Upcoming Workshops=
+            section if the workshop date is future. or else if the
+            workshop is already done, it will appear under =Pending
+            Action Workshops= section.
 
-+ Step 7 :: Click on =Logout= button from top right corner to exit. or else
-     continue with other scenarios
++ Step 7 :: Click on =Logout= button from top right corner to exit. or
+            else continue with other scenarios
 
 ** Add Nodal Centre
 *** Steps
@@ -517,9 +515,9 @@
             Click on =Submit= button. (All fields are mandatory except
             Gateway IP)
             + Workshop Version - <online/offline>
-     	      - online :: Virtual Labs are accessed from internet.
+	      - online :: Virtual Labs are accessed from the internet.
 	      - offline :: Virtual Labs are accessed from college
-                           cloud (Innternet connection is not
+                           cloud HDD(Internet connection is not
                            required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
@@ -531,12 +529,12 @@
             + Date of Workshop - <date of workshop>
             + Gateway IP of College - <gateway ip of college> (optional field for online workshops)
 
-+ Step 7 :: Newly added Workshop will appear under =Upcoming
++ Step 6 :: Newly added Workshop will appear under =Upcoming
             Workshops= section if the workshop date is future. or else
             if the workshop is already done, it will appear under
             =Pending Action Workshops= section.
 
-+ Step 9 :: Click on =Logout= button from top right corner to exit. or
++ Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
 
 ** Edit Workshop
@@ -552,9 +550,9 @@
 + Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
      button.
             + Workshop Version - <online/offline>
-              - online :: Virtual Labs are accessed from internet.
+	      - online :: Virtual Labs are accessed from the internet.
 	      - offline :: Virtual Labs are accessed from college
-                           cloud (Innternet connection is not
+                           cloud HDD(Internet connection is not
                            required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
@@ -578,9 +576,7 @@
                 usage is not correct.
             + For offline workshop
 	      - Enter the =College MAC Address= value which is
-                obtained during workshop is being conducted at the college
-                or contact college cloud SysAdmin to get the mac
-                address of the college cloud machine.
+                obtained when the workshop was conducted at the college.Visit for [[http://google.com][More information on getting MAC address]]
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.

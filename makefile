@@ -1,60 +1,32 @@
 #SHELL := /bin/bash
-BUILD_DIR=build
 
-LITERATE_TOOLS="https://github.com/vlead/literate-tools.git"
-LITERATE_DIR=literate-tools
-ELISP_DIR=elisp
-ORG_DIR=org-templates
-STYLE_DIR=style
+CODE_DIR=build/code
 DOC_DIR=build/docs
-SRC_DIR=src
 PWD=$(shell pwd)
+LINT_FILE=${PWD}/${CODE_DIR}/lint_output
+EXIT_FILE=${PWD}/exit.txt
 STATUS=0
 
-DEST_HOST="root@vlabs-dev.vlabs.ac.in"
-DEST_HOST_STAGE="root@staging-dev.vlabs.ac.in"
-DEST_DIR="/var/www/docs/outreach-manual"
-REMOVE_COMMAND="rm -rf /var/www/docs/outreach-manual/*"
+all:  build run-py-tests
 
-all:  publish
+init: 
+	./init.sh
 
-clean-literate:
-	rm -rf ${ELISP_DIR}
-	rm -rf src/${ORG_DIR}
-	rm -rf src/${STYLE_DIR}
+build: init
+	make -f tangle-make -k all
+	#cp -r src/runtime/implementation/static ${CODE_DIR}/runtime/implementation
+	#cp -r src/images ${DOC_DIR}/images
+install-pep:
+	sudo pip install pep8
 
-pull-literate-tools:
-	@echo "pulling literate support code"
-	echo ${PWD}
-ifeq ($(wildcard elisp),)
-	@echo "proxy is..."
-	echo $$http_proxy
-	git clone ${LITERATE_TOOLS}
-	mv ${LITERATE_DIR}/${ELISP_DIR} .
-	mv ${LITERATE_DIR}/${ORG_DIR} ${SRC_DIR}
-	mv ${LITERATE_DIR}/${STYLE_DIR} ${SRC_DIR}
-	rm -rf ${LITERATE_DIR}
-else
-	@echo "Literate support code already present"
-endif
+lint:  install-pep
+	pep8 --ignore=E302 ${PWD}/${CODE_DIR} > ${LINT_FILE};
 
-init: pull-literate-tools
-	rm -rf ${BUILD_DIR}
-	mkdir -p ${BUILD_DIR}
+build-with-lint: build lint
 
-publish: init
-	emacs  --script elisp/publish.el
+run-py-tests:
+	export PYTHONPATH=${PWD}/${CODE_DIR}; find ${PWD}/${CODE_DIR} -name '*test_*.py' -exec python '{}' \;
 
-clean:	clean-literate
-	rm -rf ${BUILD_DIR}
+clean:	
+	make -f tangle-make clean
 
-pull:
-	git pull origin master
-
-export: pull publish
-	ssh -o "StrictHostKeyChecking no" ${DEST_HOST} ${REMOVE_COMMAND}
-	rsync -avz --progress ${DOC_DIR}/ ${DEST_HOST}":"${DEST_DIR}
-
-stage: 	publish
-	ssh -o "StrictHostKeyChecking no" ${DEST_HOST_STAGE} ${REMOVE_COMMAND}
-	rsync -avz --progress ${DOC_DIR}/ ${DEST_HOST_STAGE}":"${DEST_DIR}

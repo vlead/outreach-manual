@@ -206,6 +206,99 @@
 + Step 5 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
+** Add Workshop 
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Workshops= button from left menu bar. 
+
++ Step 4 :: Click on =Add Workshop= button.
+
++ Step 5 :: Enter the following details to create a New Workshop and
+            Click on =Submit= button. (All fields are mandatory except
+            Gateway IP for online workshops)
+
+            + Workshop Version - <online/offline>
+	      - online :: Virtual Labs are accessed from internet.
+	      - offline :: Virtual Labs are accessed from college
+                           cloud (Innternet connection is not
+                           required to access the labs)
+            + Workshop Name - <workshop name>
+            + Location of Workshop - <location of workshop>
+            + Participating Institutes - <participating institutes>
+            + Number of Expected Participants - <number of expected
+              participants>
+            + Number of Sessions - <number of sessions>
+            + Duration of Each Session - <duration of each session>
+            + Number of Labs Planned - <number of labs planned>
+            + Date of Workshop - <date of workshop>
+            + Gateway IP of College - <gateway ip of college>
+              (optional field for online workshops)
+
++ Step 7 :: Newly added Workshop will appear under =My Workshops=
+            section if the workshop date is future. or else if the
+            workshop is already done, it will appear under =Workshop
+            History= section.
+
++ Step 9 :: Click on =Logout= button from top right corner to exit. or
+            else continue with other scenarios
+
+** Edit Workshop
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Workshops= button from left menu bar. 
+
++ Step 4 :: Click on =Edit= button to edit the details of a Workshop.
+
++ Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
+     button.
+            + Workshop Version - <online/offline>
+     	      - online :: Virtual Labs are accessed from internet.
+	      - offline :: Virtual Labs are accessed from college
+                           cloud (Innternet connection is not
+                           required to access the labs)
+
+            + Workshop Name - <workshop name>
+            + Location of Workshop - <location of workshop>
+            + Participating Institutes - <participating institutes>
+            + Number of Expected Participants - <number of expected participants>
+            + Number of Sessions - <number of sessions>
+            + Duration of Each Session - <duration of each session>
+            + Number of Labs Planned - <number of labs planned>
+            + Date of Workshop - <date of workshop>
+	    + For online workshop
+              - Gateway IP of College - Click on =Get Gateway IP= button
+                to get the gateway ip of college where the workshop is
+                conducted.  *Note* This feature is useful only if you are in the site
+                where the workshop is being conducted.
+	      - Copy & paste the obtained gateway ip address into the input field.
+              - Usage from Online Feedback 
+              - Click on =Compute Usage= button to get the Usage from
+                online feedback which is auto populated based on given
+                =workshop date= and =college gateway ip=
+              - Usage from Paper Feedback - <usage from paper feedback> *Note* Update this field if the online
+                usage is not correct.
+            + For offline workshop
+	      - Enter the =College MAC Address= value which is
+                obtained during workshop is being conducted at the college
+                or contact college cloud SysAdmin to get the mac
+                address of the college cloud machine.
+              - Click on =Compute Usage= button to get the Usage from
+                college cloud feedback which is auto populated based on given
+                =workshop date= and =mac address=.
+
++ Step 6 :: Updated Workshop will appear under =Upcoming Workshops= section if
+     the workshop date is future. or else if the workshop is already done, it
+     will appear under =Pending Action Workshops= section. 
+
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Add Nodal Centre
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -420,9 +513,14 @@
 
 + Step 4 :: Click on =Add Workshop= button.
 
-+ Step 5 :: Enter the following details to create a New Workshop and Click on =Submit=
-     button. (All fields are mandatory except Gateway IP)
-
++ Step 5 :: Enter the following details to create a New Workshop and
+            Click on =Submit= button. (All fields are mandatory except
+            Gateway IP)
+            + Workshop Version - <online/offline>
+     	      - online :: Virtual Labs are accessed from internet.
+	      - offline :: Virtual Labs are accessed from college
+                           cloud (Innternet connection is not
+                           required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
             + Participating Institutes - <participating institutes>
@@ -431,14 +529,15 @@
             + Duration of Each Session - <duration of each session>
             + Number of Labs Planned - <number of labs planned>
             + Date of Workshop - <date of workshop>
-            + Gateway IP of College - <gateway ip of college> (optional)
+            + Gateway IP of College - <gateway ip of college> (optional field for online workshops)
 
-+ Step 7 :: Newly added Workshop will appear under =Upcoming Workshops= section if
-     the workshop date is future. or else if the workshop is already done, it
-     will appear under =Pending Action Workshops= section. 
++ Step 7 :: Newly added Workshop will appear under =Upcoming
+            Workshops= section if the workshop date is future. or else
+            if the workshop is already done, it will appear under
+            =Pending Action Workshops= section.
 
-+ Step 9 :: Click on =Logout= button from top right corner to exit. or else
-     continue with other scenarios
++ Step 9 :: Click on =Logout= button from top right corner to exit. or
+            else continue with other scenarios
 
 ** Edit Workshop
 *** Steps
@@ -452,7 +551,11 @@
 
 + Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
      button.
-
+            + Workshop Version - <online/offline>
+              - online :: Virtual Labs are accessed from internet.
+	      - offline :: Virtual Labs are accessed from college
+                           cloud (Innternet connection is not
+                           required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
             + Participating Institutes - <participating institutes>
@@ -461,21 +564,34 @@
             + Duration of Each Session - <duration of each session>
             + Number of Labs Planned - <number of labs planned>
             + Date of Workshop - <date of workshop>
-            + Gateway IP of College - Click on =Get Gateway IP= button to get the gateway ip of college
-              where the workshop is conducted. *Note* This feature is used
-              while doing the workshop.
-            + Usage from Online Feedback - Click on =Compute Usage= button to
-              get the Usage from online feedback which is auto populated based
-              on given =workshop date= and =college gateway ip=
-            + Usage from Paper Feedback - <usage from paper feedback> *Note* Update this field if the online
-              usage is not correct.
+	    + For online workshop
+              - Gateway IP of College - Click on =Get Gateway IP= button
+                to get the gateway ip of college where the workshop is
+                conducted.  *Note* This feature is useful only if you are in the site
+                where the workshop is being conducted.
+	      - Copy & paste the obtained gateway ip address into the input field.
+              - Usage from Online Feedback 
+              - Click on =Compute Usage= button to get the Usage from
+                online feedback which is auto populated based on given
+                =workshop date= and =college gateway ip=
+              - Usage from Paper Feedback - <usage from paper feedback> *Note* Update this field if the online
+                usage is not correct.
+            + For offline workshop
+	      - Enter the =College MAC Address= value which is
+                obtained during workshop is being conducted at the college
+                or contact college cloud SysAdmin to get the mac
+                address of the college cloud machine.
+              - Click on =Compute Usage= button to get the Usage from
+                college cloud feedback which is auto populated based on given
+                =workshop date= and =mac address=.
 
-+ Step 6 :: Updated Workshop will appear under =Upcoming Workshops= section if
-     the workshop date is future. or else if the workshop is already done, it
-     will appear under =Pending Action Workshops= section. 
++ Step 6 :: Updated Workshop will appear under =Upcoming Workshops=
+            section if the workshop date is future. or else if the
+            workshop is already done, it will appear under =Pending
+            Action Workshops= section.
 
-+ Step 7 :: Click on =Logout= button from top right corner to exit. or else
-     continue with other scenarios
++ Step 7 :: Click on =Logout= button from top right corner to exit. or
+            else continue with other scenarios
 
 ** Upload Workshop Reports
 *** Steps

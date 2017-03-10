@@ -284,7 +284,7 @@
                 usage is not correct.
             + For offline workshop
 	      - Enter the =College MAC Address= value which is
-                obtained when the workshop was conducted at the college.Visit for [[http://google.com][More information on getting MAC address]]
+                obtained when the workshop was conducted at the college.Visit for [[http://community.vlabs.ac.in/docs/college-cloud/installation-manual.html#orgdeb015d][More information on getting MAC address]]
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.
@@ -296,7 +296,7 @@
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
-
+	    
 ** Add Nodal Centre
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -576,7 +576,7 @@
                 usage is not correct.
             + For offline workshop
 	      - Enter the =College MAC Address= value which is
-                obtained when the workshop was conducted at the college.Visit for [[http://google.com][More information on getting MAC address]]
+                obtained when the workshop was conducted at the college.Visit for [[http://community.vlabs.ac.in/docs/college-cloud/installation-manual.html#orgdeb015d][More information on getting MAC address]]
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.

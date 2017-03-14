@@ -249,7 +249,7 @@
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
-+ Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
++ Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in section [[Login Scenarios]])
 
 + Step 3 :: Click on =Manage Workshops= button from left menu bar. 
 
@@ -284,7 +284,7 @@
                 usage is not correct.
             + For offline workshop
 	      - Enter the =College MAC Address= value which is
-                obtained when the workshop was conducted at the college.Visit for [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/installation-manual.html#sec-7-2][More information on getting MAC address]]
+                obtained when the workshop was conducted at the college. Visit [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/installation-manual.html#sec-7-2][More information on getting MAC address]]
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.
@@ -541,7 +541,7 @@
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
-+ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
++ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in section [[Login Scenarios]])
 
 + Step 3 :: Click on =Manage Workshops= button from left menu bar. 
 
@@ -576,7 +576,7 @@
                 usage is not correct.
             + For offline workshop
 	      - Enter the =College MAC Address= value which is
-                obtained when the workshop was conducted at the college.Visit for [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/installation-manual.html#sec-7-2][More information on getting MAC address]]
+                obtained when the workshop was conducted at the college.Visit [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/installation-manual.html#sec-7-2][More information on getting MAC address]]
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.
@@ -588,7 +588,7 @@
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
-
+	    
 ** Upload Workshop Reports
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]

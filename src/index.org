@@ -99,14 +99,16 @@
  
             + Name - <outreach coordinator name>
             + Email - <outreach coordinator email>
-            + Institute Name - <outreach coordinator institute>
+            + Institute Name - <outreach coordinator
+              institute>
+            
 
 + Step 6 :: Updated details of Outreach Coordinator will be reflected in 
             =Outreach Coordinators Details= list.
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
-
+     
 ** Delete Outreach Coordinator
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -199,7 +201,7 @@
 
 + Step 4 :: Outreach Coordinator =Dashboard= will show the following Details:
             1) Total Number of Workshops 
-            2) Total Number of Experiments
+            2) Total Number of Experiments (Usage)
             3) Total Number of Participants
             4) Total Number of Nodal Centres
 
@@ -214,33 +216,26 @@
 
 + Step 3 :: Click on =Manage Workshops= button from left menu bar. 
 
-+ Step 4 :: Click on =Add Workshop= button.
++ Step 4 :: Click on =ADD WORKSHOP= button.
 
 + Step 5 :: Enter the following details to create a New Workshop and
             Click on =Submit= button. (All fields are mandatory except
             Gateway IP for online workshops)
 
-            + Workshop Version - <online/offline>
-	      - online :: Virtual Labs are accessed from the internet.
-	      - offline :: Virtual Labs are accessed from college
-                           cloud HDD(Internet connection is not
-                           required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
-            + Participating Institutes - <participating institutes>
+            + Workshop Institute Name - <participating institutes>
             + Number of Expected Participants - <number of expected
               participants>
             + Number of Sessions - <number of sessions>
             + Duration of Each Session - <duration of each session>
             + Number of Labs Planned - <number of labs planned>
             + Date of Workshop - <date of workshop>
-            + Gateway IP of College - <gateway ip of college>
-              (optional field for online workshops)
 
 + Step 6 :: Newly added Workshop will appear under =My Workshops=
             section if the workshop date is future. or else if the
-            workshop is already done, it will appear under =Workshop
-            History= section.
+            workshop is already done, it will appear under
+            =Pending Workshops= section.
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
@@ -253,23 +248,21 @@
 
 + Step 3 :: Click on =Manage Workshops= button from left menu bar. 
 
-+ Step 4 :: Click on =Edit= button to edit the details of a Workshop.
++ Step 4 :: Click on =Pending Workshops= and select the edit
+            button of the respective workshop to edit the
+            details of a Workshop.
 
 + Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
      button.
-            + Workshop Version - <online/offline>
-	      - online :: Virtual Labs are accessed from the internet.
-	      - offline :: Virtual Labs are accessed from college
-                           cloud HDD(Internet connection is not
-                           required to access the labs)
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
+            + Date of Workshop - <date of workshop>
             + Participating Institutes - <participating institutes>
-            + Number of Expected Participants - <number of expected participants>
+            + Number of Participants Attended - <number of expected participants>
             + Number of Sessions - <number of sessions>
             + Duration of Each Session - <duration of each session>
-            + Number of Labs Planned - <number of labs planned>
-            + Date of Workshop - <date of workshop>
+            + Number of Labs conducted in the workshop - <number of labs conducted>
+            
 	    + For online workshop
               - Gateway IP of College - Click on =Get Gateway IP= button
                 to get the gateway ip of college where the workshop is
@@ -288,6 +281,8 @@
               - Click on =Compute Usage= button to get the Usage from
                 college cloud feedback which is auto populated based on given
                 =workshop date= and =mac address=.
+
+            + Usage from Paper Feedback - <usage recorded>
 
 + Step 6 :: Updated Workshop will appear under =Upcoming Workshops=
             section if the workshop date is future. or else if the
@@ -343,6 +338,26 @@
 + Step 7 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
+** Active/Inactive status of Nodal Centre
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Nodal Centres= button from left menu bar. 
+
++ Step 4 :: Click on =Edit= button to edit the details of an Nodal Centre.
+
++ Step 5 :: Click on the Toggle button to change the status
+            of the active Nodal Center to Inactive and vice
+            versa.
+
++ Step 6 :: Updated status of Nodal Centre will be reflected in 
+            =Nodal Centres Details= list.
+
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
+     continue with other scenarios
+
 ** Delete Nodal Centre
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
@@ -375,6 +390,7 @@
             + Coordinator Name - <nodal coordinator name>
             + Nodal Centre Name - <nodal centre name>
             + Email - <nodal coordinator email>
+            + Phone No - <Phone number>
             + Target Workshops - <number of target workshops>
             + Target Experiments - <number of target experiments>
             + Target Participants - <number of target participants>
@@ -401,6 +417,7 @@
             + Coordinator Name - <nodal coordinator name>
             + Nodal Centre Name - <nodal centre name>
             + Email - <nodal coordinator email>
+            + Phone No -<phone number>
             + Target Workshops - <number of target workshops>
             + Target Experiments - <number of target experiments>
             + Target Participants - <number of target participants>
@@ -411,48 +428,53 @@
 + Step 7 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
-** Delete Nodal Coordinator
+** Active/Inactive status of Nodal Coordinator
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
 + Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
 
-+ Step 3 :: Click on =Manage Nodal Coordinators= button from left menu bar. 
++ Step 3 :: Click on =Manage Nodal Coordinator= button from left menu bar. 
 
-+ Step 4 :: Click on =Delete= button to delete a Nodal Coordinator.
++ Step 4 :: Click on =Edit= button to edit the details of an Nodal Coordinator.
 
-+ Step 5 :: Nodal Coordinator will be removed and will get reflected in 
++ Step 5 :: Click on the Toggle button to change the status
+            of the active Nodal Coordinator to Inactive and
+            vice versa.  
+
++ Step 6 :: Updated details of Nodal Coordinator will be reflected in 
             =Nodal Coordinators Details= list.
 
-+ Step 6 :: Click on =Logout= button from top right corner to exit. or else
++ Step 7 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
-** Add Workshop Reference Documents
+** Add Workshop Documents
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
 + Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
 
-+ Step 3 :: Click on =Reference Documents= button from left menu bar. 
++ Step 3 :: Click on =Manage Workshops= button from left
+            menu bar and click on =Pending Workshops= on the
+            menu bar. 
 
-+ Step 4 :: Click on =Add Document= button.
++ Step 4 :: Click on =Upload= button.
 
-+ Step 5 :: Enter the =type of the file=, 
-            example: Attendance Sheet, Photo etc.
++ Step 5 :: Click on =Browse= button to select the file from
+            file system. For example: Attendance Sheet, Photo,
+            college report.
 
-+ Step 6 :: Click on =Browse= button to select the file from file system and
-     click on =Upload= button. 
++ Step 6 :: Click on =Submit= button.
 
-*Note* Allowed file formats are: [txt, pdf, png, jpg, jpeg, gif, csv, doc, docx]  
+*Note* Allowed file formats are: [pdf, jpg, jpeg]  
      
-+ Step 7 :: Newly added Document will be added at the end of the
-     =My Documents= list.
++ Step 7 :: After uploading the documents and updating the
+            workshop details with =Usage= and =No of
+            participants= the workshop status is approved
+            and moved to =Workshop History=.
 
-+ Step 8 :: Documents uploaded by Admin is available to view under
-     =Admin Documents= section.
-
-+ Step 9 :: Click on =Logout= button from top right corner to exit. or else
-     continue with other scenarios
++ Step 8 :: Click on =Logout= button from top right corner
+            to exit. or else continue with other scenarios
 
 ** View Workshop Reference Documents
 *** Steps
@@ -460,7 +482,7 @@
 
 + Step 2 :: Login as Outreach Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
 
-+ Step 3 :: Click on =Reference Documents= button from left menu bar. 
++ Step 3 :: Click on =Pending Workshops= button from left menu bar. 
 
 + Step 4 :: Click on =View= button beside each document.
 
@@ -483,6 +505,28 @@
      =Delete= button to delete a particular document.
 
 + Step 5 :: Click on =Logout= button from top right corner to exit. 
+
+** Pending For Updates
+
+*** Steps
++ Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
+
++ Step 2 :: Login as Outreach Coordinator (Please follow the
+            steps mentioned in [[Login Scenarios]])
+
++ Step 3 :: Click on =Manage Workshops= button from left
+            menu bar and select =Pending Workshops= .
+
++ Step 4 :: Click on =Edit= button to edit the details of a
+            workshop.
+
++ Step 5 :: Click on =Upload= button to update attendance
+            sheets, report and photos.
+
++ Step 6 :: Once the document and details of the workshop
+            are updated the workshop moves to =Approved=
+            status. 
+
 
 * Nodal Coordinator Scenarios
 ** Dashboard
@@ -512,27 +556,21 @@
 + Step 4 :: Click on =Add Workshop= button.
 
 + Step 5 :: Enter the following details to create a New Workshop and
-            Click on =Submit= button. (All fields are mandatory except
-            Gateway IP)
-            + Workshop Version - <online/offline>
-	      - online :: Virtual Labs are accessed from the internet.
-	      - offline :: Virtual Labs are accessed from college
-                           cloud HDD(Internet connection is not
-                           required to access the labs)
+            Click on =Submit= button. 
+
             + Workshop Name - <workshop name>
             + Location of Workshop - <location of workshop>
-            + Participating Institutes - <participating institutes>
+            + Workshop Institute Name - <participating institutes>
             + Number of Expected Participants - <number of expected participants>
             + Number of Sessions - <number of sessions>
             + Duration of Each Session - <duration of each session>
             + Number of Labs Planned - <number of labs planned>
             + Date of Workshop - <date of workshop>
-            + Gateway IP of College - <gateway ip of college> (optional field for online workshops)
 
 + Step 6 :: Newly added Workshop will appear under =Upcoming
             Workshops= section if the workshop date is future. or else
             if the workshop is already done, it will appear under
-            =Pending Action Workshops= section.
+            =Pending Workshops= section.
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
@@ -541,50 +579,29 @@
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
-+ Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in section [[Login Scenarios]])
++ Step 2 :: Login as Nodal Coordinator (Please follow the
+            steps mentioned in section [[Login Scenarios]])
 
-+ Step 3 :: Click on =Manage Workshops= button from left menu bar. 
++ Step 3 :: Click on =Manage Workshops= button from left
+            menu bar.
++ Step 4 :: Click on =Pending Workshops= and click on =Edit=
+            button to edit the details of a Workshop.
 
-+ Step 4 :: Click on =Edit= button to edit the details of a Workshop.
-
-+ Step 5 :: Update any of the following details of the Workshop and Click on =Submit=
-     button.
-            + Workshop Version - <online/offline>
-	      - online :: Virtual Labs are accessed from the internet.
-	      - offline :: Virtual Labs are accessed from college
-                           cloud HDD(Internet connection is not
-                           required to access the labs)
-            + Workshop Name - <workshop name>
++ Step 5 :: Update any of the following details of the
+            Workshop and Click on =Submit= button.
             + Location of Workshop - <location of workshop>
+            + Date of Workshop - <date of workshop>
             + Participating Institutes - <participating institutes>
-            + Number of Expected Participants - <number of expected participants>
+            + Number of Participants Attended - <number of
+              participants attended>
             + Number of Sessions - <number of sessions>
             + Duration of Each Session - <duration of each session>
-            + Number of Labs Planned - <number of labs planned>
-            + Date of Workshop - <date of workshop>
-	    + For online workshop
-              - Gateway IP of College - Click on =Get Gateway IP= button
-                to get the gateway ip of college where the workshop is
-                conducted.  *Note* This feature is useful only if you are in the site
-                where the workshop is being conducted.
-	      - Copy & paste the obtained gateway ip address into the input field.
-              - Usage from Online Feedback 
-              - Click on =Compute Usage= button to get the Usage from
-                online feedback which is auto populated based on given
-                =workshop date= and =college gateway ip=
-              - Usage from Paper Feedback - <usage from paper feedback> *Note* Update this field if the online
-                usage is not correct.
-            + For offline workshop
-	      - Enter the =College MAC Address= value which is
-                obtained when the workshop was conducted at the college.Visit [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/installation-manual.html#sec-7-2][More information on getting MAC address]]
-              - Click on =Compute Usage= button to get the Usage from
-                college cloud feedback which is auto populated based on given
-                =workshop date= and =mac address=.
+            + Number of Labs conducted in the workshop -
+              <number of labs conducted>
+	    + Usage from Paper Feedback - <usage from paper feedback> 
 
-+ Step 6 :: Updated Workshop will appear under =Upcoming Workshops=
-            section if the workshop date is future. or else if the
-            workshop is already done, it will appear under =Pending
-            Action Workshops= section.
++ Step 6 :: It will appear under =Pending Workshops= section
+            to upload the documents/reports.
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or
             else continue with other scenarios
@@ -597,15 +614,18 @@
 
 + Step 3 :: Click on =Manage Workshops= button from left menu bar. 
 
-+ Step 4 :: Click on =Pending Action Workshops= section from right menu bar. 
++ Step 4 :: Click on =Pending Workshops= section from right menu bar. 
 
 + Step 5 :: Click on =Upload Reports= button to upload the reports of a Workshop.
 
-+ Step 6 :: Three different sections will appear as =Upload Photos=, =Upload Attendance
-     Sheets= and =Upload College Reports=.Click on =Browse= button to select the files from file system.
-     All three sections are mandatory. Click on =Upload= button. 
++ Step 6 :: Three different sections will appear as =Upload
+            Photos=, =Upload Attendance Sheets= and =Upload
+            College Reports=.Click on =Browse= button to
+            select the files from file system.  All three
+            sections are mandatory. Click on =Upload=
+            button.
 
-*Note* Allowed file formats are: [txt, pdf, png, jpg, jpeg, gif, csv, doc, docx]  
+*Note* Allowed file formats are: [ pdf, jpg, jpeg]  
 
 + Step 7 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
@@ -653,9 +673,11 @@
 + Step 2 :: Login as Nodal Coordinator (Please follow the steps mentioned in [[Login Scenarios]])
 
 + Step 3 :: Click on =Nodal Centers= button from left menu
-     bar. The =Nodal Center Details= section will appear with the following details:
+            bar. The =Nodal Center Details= section will
+            appear with the following details:
 
             + Name - <Nodal Center Name>
             + Location - <Nodal Center Location>
 
-+ Step 4 :: Click on =Logout= button from top right corner to exit. 
++ Step 4 :: Click on =Logout= button from top right corner
+            to exit.

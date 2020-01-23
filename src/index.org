@@ -45,20 +45,32 @@
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
-+ Step 2 :: Login as Admin (Please follow the steps mentioned in [[./index.org::#login_scenarios][Login Scenarios]])
++ Step 2 :: Login as Admin (Please follow the steps
+            mentioned in [[./index.org::#login_scenarios][Login Scenarios]])
 
 + Step 3 :: Click on =Dashboard= button from left menu bar.
 
-+ Step 4 :: Admin =Dashboard= will show the following Details:
-            1) Total Number of Workshops Run - Click on this to view all the
-               workshops with details of each workshop   
-            2) Total Number of Outreach Coordinators - Click on this to view
++ Step 4 :: Admin =Dashboard= will show the following
+            Details:
+            1) Workshops Run - Click on this to view all the
+               workshops with details of each workshop
+            2) Outreach Coordinators - Click on this to view
                all the Outreach Coordinators
-            3) Total Number of Nodal Coordinators - Click on this to view all
+            3) Nodal Coordinators - Click on this to view all
                the Nodal Coordinators
-            4) Total Usage - Click on this to view the total Usage per institute
+            4) Usage - Click on this to view the total Usage
+               per institute
 
-+ Step 5 :: Click on =Logout= button from top right corner to exit. or else
++ Step 5 :: Click on =Manage Outreach Coordinators= it displays
+            the list of current outreach coordinators
+
++ Step 6 :: Click on =Manage Documents= it displays the
+            reference documents
+
++ Step 7 :: Click on =My Profile= it displays the details of
+            the admin
+
++ Step 8 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
 ** Add Outreach Coordinator
@@ -117,7 +129,9 @@
 
 + Step 3 :: Click on =Manage Outreach Coordinators= button from left menu bar. 
 
-+ Step 4 :: Click on =Delete= button to delete an Outreach Coordinator.
++ Step 4 :: Click on =Delete= button to delete an Outreach
+            Coordinator. It asks for the confirmation "Are
+            you sure!" Click =Ok=
 
 + Step 5 :: Outreach Coordinator will be removed and will get reflected in 
             =Outreach Coordinators Details= list.
@@ -205,7 +219,38 @@
             3) Total Number of Participants
             4) Total Number of Nodal Centres
 
-+ Step 5 :: Click on =Logout= button from top right corner to exit. or else
++ Step 5 :: Click on =Manage Nodal Centers= button from left
+            menu bar.
+
++ Step 6 :: Outreach Coordinator =Manage Nodal Centers= will
+            show the details of the Nodal Centres Details
+            and also allows to add a new =Nodal Center=.
+
++ Step 7 :: Click on =Manage Nodal Coordinator= button from left
+            menu bar.
+
++ Step 8 :: Outreach Coordinator =Manage Nodal Coordinator= will
+            show the details of the Nodal Coordinator Details
+            and also allows to add a new =Nodal
+            Coordinator=. 
++ Step 9 :: Click on =Manage Workshops= button from left
+            menu bar.
+
++ Step 10 :: Outreach Coordinator =Manage Workshops= will show the following Details:
+            1) Upcoming Workshops 
+            2) Pending Workshops
+            3) Nodal Coordinators Workshops
+            4) Workshop History
+            5) ADD WORKSHOP
+
++ Step 11 :: Click on =Reference Documents= button from left
+            menu bar.
+
++ Step 12 :: Outreach Coordinator =Reference Documents= will
+            show the documents required to be uploaded in
+             the outreach portal for all the workshops. 
+
++ Step 13 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
 ** Add Workshop 
@@ -358,7 +403,7 @@
 + Step 7 :: Click on =Logout= button from top right corner to exit. or else
      continue with other scenarios
 
-** Delete Nodal Centre
+  ** Delete Nodal Centre
 *** Steps
 + Step 1 :: Go to the URL [[http://outreach.vlabs.ac.in/][http://outreach.vlabs.ac.in/]]
 
@@ -526,7 +571,6 @@
 + Step 6 :: Once the document and details of the workshop
             are updated the workshop moves to =Approved=
             status. 
-
 
 * Nodal Coordinator Scenarios
 ** Dashboard
